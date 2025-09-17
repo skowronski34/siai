@@ -1,0 +1,63 @@
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+#baner {
+    color: white;
+    background-color: Crimson;
+    text-align: center;
+    height: 370px;
+}
+
+#baner h2 {
+    text-transform: capitalize;
+    letter-spacing: 7px;
+    padding: 20px;
+}
+
+#mecze {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.mecz {
+    background-color: Crimson;
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mecz:hover {
+    border: 1px solid white;
+}
+
+#glowny {
+    background-color: WhiteSmoke;
+    display: flex;
+    height: 230px;
+}
+
+#lewy {
+    width: 70%;
+    background-color: WhiteSmoke;
+    padding: 10px;
+}
+
+#prawy {
+    width: 30%;
+    background-color: WhiteSmoke;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
